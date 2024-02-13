@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #008000;
+  --second: #191970;
+}
+
+/* navbar */
+.navbarMain {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7%;
+  align-items: center;
+  z-index: 9999999;
+  /* background-color: white; */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: var(--primary);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navbar-logo span {
+  color: var(--second);
+  font-style: italic;
+}
+
+.navbar-menu {
+  text-align: center;
+}
+
+.navbar-menu a > svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 10px;
+}
+
+.navbar-menu a {
+  margin-left: 0.3rem;
+  color: black;
+  font-size: 1.2rem;
+  height: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.navbar-extra {
+  display: none;
+}
+
+/* main page */
+.container {
+  width: 1366px;
+  height: 630px;
+}
+.mainpage {
+  background-image: url("../picture/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 633px;
+  /* margin-top: 59px; */
+  background-position: 0 -210px;
+}
+
+.kata {
+  display: block;
+  color: white;
+  margin-top: -370px;
+  margin-left: 9%;
+  width: 400px;
+  height: 300px;
+}
+.kata p,
+h2,
+a {
+  margin-top: 10px;
+}
+
+.kata p,
+a {
+  font-size: 1rem;
+}
+.kata a {
+  padding: 5px 6px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 25px;
+  display: block;
+  width: 100px;
+  /* background-color: black; */
+  cursor: pointer;
+  /* margin-top: 30px; */
+}
