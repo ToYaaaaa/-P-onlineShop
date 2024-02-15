@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -48,7 +49,7 @@
 }
 
 .navbar-menu a {
-  margin-left: 0.3rem;
+  margin-left: 2rem;
   color: black;
   font-size: 1.2rem;
   height: 1rem;
@@ -62,7 +63,7 @@
 
 /* main page */
 .container {
-  width: 1366px;
+  width: 1349px;
   height: 630px;
 }
 .mainpage {
@@ -103,4 +104,169 @@ a {
   /* background-color: black; */
   cursor: pointer;
   /* margin-top: 30px; */
+}
+
+/* benefit */
+.benefit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1349px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+}
+
+.benefit .benefit1 {
+  margin-top: 80px;
+  width: 330px;
+  height: 300px;
+}
+
+.benefit .benefit2 {
+  margin-top: 35px;
+  width: 330px;
+  height: 300px;
+}
+
+.benefit .benefit3 {
+  margin-top: 75px;
+  width: 330px;
+  height: 300px;
+}
+
+/* our product  */
+
+.ourproduct {
+  width: 1348px;
+  background-color: #f8f9fa;
+  /* background-color: blue; */
+  height: 635px;
+}
+
+.ourproduct .atas {
+  text-align: center;
+  padding-top: 100px;
+}
+.ourproduct .atas h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.ourproduct .atas p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.ourproduct .bungkusblock {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  /* flex-wrap: wrap; */
+}
+.ourproduct .bungkusblock .block1 {
+  width: 200px;
+  height: 300px;
+  /* background-color: black;*/
+  border: 2px solid black;
+  text-align: center;
+  box-shadow: 2px 2px 5px black;
+}
+.ourproduct .bungkusblock .block1 img {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.ourproduct .bungkusblock .block1 .text1 {
+  font-size: 15px;
+  /* width: 50px; */
+  height: 75px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: #fdf5e6;
+}
+
+.ourproduct .bungkusblock .block1 .text1 p {
+  line-height: 25px;
+}
+
+.ourproduct .bungkusblock .block1 .text1 button {
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.ourproduct .bungkusblock .block2 {
+  width: 200px;
+  height: 300px;
+  /* background-color: black;*/
+  border: 2px solid black;
+  text-align: center;
+  box-shadow: 2px 2px 5px black;
+}
+.ourproduct .bungkusblock .block2 img {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.ourproduct .bungkusblock .block2 .text2 {
+  font-size: 15px;
+  /* width: 50px; */
+  height: 75px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: #fdf5e6;
+}
+
+.ourproduct .bungkusblock .block2 .text2 p {
+  line-height: 25px;
+}
+
+.ourproduct .bungkusblock .block2 .text2 button {
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.ourproduct .bungkusblock .block3 {
+  width: 200px;
+  height: 300px;
+  /* background-color: black;*/
+  border: 2px solid black;
+  text-align: center;
+  box-shadow: 2px 2px 5px black;
+}
+.ourproduct .bungkusblock .block3 img {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.ourproduct .bungkusblock .block3 .text3 {
+  font-size: 15px;
+  /* width: 50px; */
+  height: 75px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: #fdf5e6;
+}
+
+.ourproduct .bungkusblock .block3 .text3 p {
+  line-height: 25px;
+}
+
+.ourproduct .bungkusblock .block3 .text3 button {
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
 }
