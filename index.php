@@ -118,25 +118,26 @@
 
     <!-- deal of the month start -->
     <div class="deal">
-        <img src="picture/block.png" alt="">
-        <div class="textatas">
-            <p>Deal Of The Month</p>
-            <h1>Deal Of The Month</h1>
+            <div class="gambardeal"><img src="picture/block.png" alt=""></div>
+        <div class="bungkusdeal">
+            <div class="textatas">
+                <p>Deal Of The Month</p>
+                <h1>Deal Of The Month</h1>
+            </div>
+            <div class="times" id="timer">
+                <div id="day"></div>
+                <div id="hour"></div>
+                <div id="minute"></div>
+                <div id="second"></div>
+            </div>
+            <div class="price">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2 id="harga">RP. 50.000,-</h2>
+                <img src="picture/block.png" alt="">
+                <img src="picture/block.png" alt="">
+                <img src="picture/block.png" alt="">
+            </div>
         </div>
-        <div class="times">
-            <div id="day"></div>
-            <div id="hour"></div>
-            <div id="minute"></div>
-            <div id="second"></div>
-        </div>
-        <div class="price">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <h2>RP. 50.000,-</h2>
-            <img src="picture/block.png" alt="">
-            <img src="picture/block.png" alt="">
-            <img src="picture/block.png" alt="">
-        </div>
-
     </div>
     <!-- deal of the month end -->
 
@@ -144,5 +145,8 @@
     <script>
     feather.replace();
     </script>
+
+    <!-- script -->
+    <script src="js/script.js"></script>
 </body>
 </html>
