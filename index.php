@@ -141,11 +141,62 @@
     </div>
     <!-- deal of the month end -->
 
+    <!-- footer start -->
+    <div class="footer">
+        <div class="containerfooter">
+            <div class="foot1">
+                <ul>
+                    <li> <h3>Nexus Shop</h3></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nostrum.</p></li>
+                    <li> 
+                        <div class="foot1icon">
+                            <div class="instagram">
+                                <a href=""><img src="picture/instagram.png" alt=""></a>
+                            </div>
+                            <div class="facebook">
+                                <a href=""><img src="picture/facebook.png" alt=""></a>
+                            </div>
+                            <div class="twitter">
+                                <a href=""><img src="picture/twitter.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot2">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="foot3">
+                <h3>FAQ</h3>
+                <ul>
+                    <li>
+                        <span>	203 Fake St. Mountain View, San Francisco, California, USA</span>
+                    </li>
+                    <li>
+                        <p>+8813999777</p>
+                    </li>
+                    <li>
+                        <p>info@nexushdshop.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©2024 All Right Reserved | Nexus Shop </p>
+        </div>
+    </div>
+    <!-- footer end -->
+
     <!-- icon -->
     <script>
     feather.replace();
     </script>
-
     <!-- script -->
     <script src="js/script.js"></script>
 </body>
