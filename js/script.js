@@ -1,3 +1,34 @@
+
+// random picture
+function gantiganti(){
+let gambar = document.getElementById("gambarganti");
+let sepatu1 = document.getElementById('sepatu1');
+let sepatu2 = document.getElementById('sepatu2');
+let sepatu3 = document.getElementById('sepatu3')
+
+let angkaRandom= Math.floor(Math.random() * 3) + 1;
+if(angkaRandom === 1){
+  gambar.innerHTML = '<img src="picture/1.png" alt=""/>';
+  sepatu1.classList.add("sepatu1");
+  sepatu2.classList.remove("sepatu2");
+  sepatu3.classList.remove("sepatu3");
+} else if(angkaRandom === 2){
+  gambar.innerHTML = '<img src="picture/2.png" alt=""/>';
+  sepatu1.classList.remove("sepatu1");
+  sepatu2.classList.add("sepatu2");
+  sepatu3.classList.remove("sepatu3");
+}else{
+  gambar.innerHTML = '<img src="picture/3.png" alt=""/>';
+  sepatu1.classList.remove("sepatu1");
+  sepatu2.classList.remove("sepatu2");
+  sepatu3.classList.add("sepatu3");
+}
+}
+setInterval(() => {
+  gantiganti()
+}, 2000);
+
+// timer diskon
 const targetDate = new Date('2024-12-25T23:59:59');
 
   function updateCountdown() {

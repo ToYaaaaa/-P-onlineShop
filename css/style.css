@@ -317,6 +317,22 @@ a {
   font-size: 1.5rem;
 }
 
+.bungkusdeal .price .sepatu1 {
+  transform: scale(1.2);
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+}
+.bungkusdeal .price .sepatu2 {
+  transform: scale(1.2);
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+}
+.bungkusdeal .price .sepatu3 {
+  transform: scale(1.2);
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+}
+
 /* footer */
 .footer {
   width: 100%;

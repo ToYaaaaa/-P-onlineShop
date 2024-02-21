@@ -82,7 +82,7 @@
         <div class="bungkusblock">
             <div class="block1">
                 <div class="bulat1">
-                    <img src="picture/block.png" alt="">
+                    <img src="picture/1.png" alt="">
                 </div>
                 <div class="text1">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -93,7 +93,7 @@
 
         <div class="block2">
                 <div class="bulat2">
-                    <img src="picture/block.png" alt="">
+                    <img src="picture/2.png" alt="">
                 </div>
                 <div class="text2">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -104,7 +104,7 @@
 
         <div class="block3">
                 <div class="bulat3">
-                    <img src="picture/block.png" alt="">
+                    <img src="picture/3.png" alt="">
                 </div>
                 <div class="text3">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -118,7 +118,7 @@
 
     <!-- deal of the month start -->
     <div class="deal">
-            <div class="gambardeal"><img src="picture/block.png" alt=""></div>
+            <div class="gambardeal" id="gambarganti"><img src="picture/1.png" alt=""></div>
         <div class="bungkusdeal">
             <div class="textatas">
                 <p>Deal Of The Month</p>
@@ -133,9 +133,9 @@
             <div class="price">
                 <h1>Lorem ipsum dolor sit amet.</h1>
                 <h2 id="harga">RP. 50.000,-</h2>
-                <img src="picture/block.png" alt="">
-                <img src="picture/block.png" alt="">
-                <img src="picture/block.png" alt="">
+                <img src="picture/1.png" alt="" id="sepatu1" class="sepatu1">
+                <img src="picture/2.png" alt="" id="sepatu2" class="sepatu2">
+                <img src="picture/3.png" alt="" id="sepatu3" >
             </div>
         </div>
     </div>
